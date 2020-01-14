@@ -1,0 +1,41 @@
+<div>
+    <ul>
+        <li>
+            <span class="title">
+                Id:
+            </span>
+            {{person?.id}}
+        </li>
+        <li>
+            <span class="title">
+                First name:
+            </span>
+            {{person?.first_name}}
+        </li>
+        <li>
+            <span class="title">
+                Last name:
+            </span>
+            {{person?.last_name}}
+        </li>
+        <li>
+            <span class="title">
+                Email:
+            </span>
+            <a href="{{'mailto:' + person.email}}">  {{person?.email}}</a>
+           
+        </li>
+        <li>
+            <span class="title">
+                Gender:
+            </span>
+            {{person?.gender}}
+        </li>
+        <li>
+            <span class="title">
+                Ip:
+            </span>
+            {{person?.ip_address}}
+        </li>
+    </ul>
+</div>
